@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>علي إبراهيم علي الشربيني | بورتفوليو</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --main-color: #ff7a00;
+      --bg-color: #fff9f3;
+      --text-dark: #333;
+    }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-dark);
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: var(--main-color);
+    }
+
+    .navbar a.nav-link, .navbar-brand {
+      color: white !important;
+      font-weight: 600;
+    }
+
+    .navbar a.nav-link:hover {
+      color: #ffe0b3 !important;
+    }
+
+    /* Hero Section */
+    #home {
+      background: linear-gradient(to right, #ff8c1a, #ffb366);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    #home h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+
+    #home p {
+      font-size: 1.2rem;
+    }
+
+    /* Sections */
+    section {
+      padding: 80px 0;
+    }
+
+    h2.section-title {
+      color: var(--main-color);
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    /* About */
+    #about p {
+      max-width: 700px;
+      margin: auto;
+      text-align: center;
+      line-height: 1.8;
+    }
+
+    /* Services */
+    .service-card {
+      border: 1px solid #ffe0b3;
+      border-radius: 10px;
+      padding: 25px;
+      background: #fff;
+      transition: 0.3s;
+    }
+
+    .service-card:hover {
+      background-color: #fff2e6;
+      transform: translateY(-5px);
+    }
+
+    /* Education */
+    .edu-box {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      border: 1px solid #ffd6a0;
+      margin-bottom: 20px;
+    }
+
+    /* Contact */
+    #contact a {
+      color: var(--main-color);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: var(--main-color);
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Ali Ibrahim</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">من أنا</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">التعليم</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">الخدمات</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">تواصل معي</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <h1>علي إبراهيم علي الشربيني</h1>
+      <p>مسوق رقمي وإدارة أعمال</p>
+      <p>متخصص في إدارة الحملات الإعلانية وتحليل البيانات وبناء استراتيجيات التسويق الرقمي</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">من أنا</h2>
+      <p>
+        أنا علي إبراهيم، متخصص في التسويق الرقمي وإدارة الأعمال. أمتلك خبرة في إدارة الحملات الإعلانية عبر Facebook وGoogle،
+        وتحليل البيانات لإعداد تقارير الأداء، بالإضافة إلى بناء استراتيجيات تسويق رقمي فعّالة وتحسين محركات البحث (SEO).
+      </p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">التعليم والدورات</h2>
+      <div class="edu-box">
+        <h5>🎓 بكالوريوس إدارة الأعمال</h5>
+        <p>Business Administration</p>
+      </div>
+      <div class="edu-box">
+        <h5>📘 الدورات التدريبية</h5>
+        <ul>
+          <li>Data Analytics for Marketing</li>
+          <li>Social Media Management</li>
+          <li>Email Marketing & Copywriting</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">الخدمات</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <h5>📢 إدارة الحملات الإعلانية</h5>
+            <p>إدارة حملات إعلانية احترافية على Facebook وGoogle Ads.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <h5>📊 تحليل البيانات</h5>
+            <p>تحليل الأداء باستخدام البيانات للوصول لأفضل النتائج التسويقية.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <h5>📈 بناء استراتيجيات تسويق</h5>
+            <p>إنشاء خطط تسويقية شاملة تناسب أهداف العلامة التجارية.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <h5>💻 إدارة حسابات السوشيال ميديا</h5>
+            <p>تنظيم ونشر محتوى جذّاب لتعزيز الحضور الرقمي.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <h5>🔍 تحسين محركات البحث (SEO)</h5>
+            <p>رفع ترتيب المواقع في نتائج البحث لجذب العملاء المستهدفين.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container text-center">
+      <h2 class="section-title">تواصل معي</h2>
+      <p>📞 الهاتف: <a href=\"tel:+201092640962\">01092640962</a></p>
+      <p>✉️ الإيميل: <a href=\"mailto:ali_alsherbiny1@gmail.com\">ali_alsherbiny1@gmail.com</a></p>
+      <p>📍 الموقع: كفر الشيخ — دسوق</p>
+    </div>
+  </section>
+
+  <footer>
+    تم إنشاء هذا البورتفوليو بواسطة إيمان — باستخدام Bootstrap و HTML و CSS ❤️
+  </footer>
+
+  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js\"></script>
+</body>
+</html>
